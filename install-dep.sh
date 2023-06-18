@@ -1,4 +1,3 @@
 #!/bin/sh
 
-
-apt install sway*  bemenu alacritty light amixer
+dnf install sway swaybar swaybg swayidle swaylock bemenu alacritty light amixer

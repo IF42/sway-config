@@ -55,13 +55,13 @@ then
     if [ $batter_percentage -ge 80 ] && [ $batter_percentage -le 100 ];
     then
         battery_pluggedin=""
-    elif [ $batter_percentage -ge 60 ] && [ $batter_percentage -lt 80]
+    elif [ $batter_percentage -ge 60 ] && [ $batter_percentage -lt 80 ];
     then
         battery_pluggedin=""
-    elif [ $batter_percentage -ge 40 ] && [ $batter_percentage -lt 60]       
+    elif [ $batter_percentage -ge 40 ] && [ $batter_percentage -lt 60 ];      
     then
         battery_pluggedin=""
-    elif [ $batter_percentage -ge 20 ] && [ $batter_percentage -lt 40]
+    elif [ $batter_percentage -ge 20 ] && [ $batter_percentage -lt 40 ];
     then
         battery_pluggedin=""
     else

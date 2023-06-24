@@ -47,18 +47,21 @@ else
 fi
 
 
+batter_percentage=${battery_charge%\%}
+
+
 if [ $battery_status = "discharging" ];
 then
-    if [ $battery_status -ge 80 ] && [ $battery_status -le 100 ];
+    if [ $batter_percentage -ge 80 ] && [ $batter_percentage -le 100 ];
     then
         battery_pluggedin=""
-    elif [ $battery_status -ge 60 ] && [ $battery_status -lt 80]
+    elif [ $batter_percentage -ge 60 ] && [ $batter_percentage -lt 80]
     then
         battery_pluggedin=""
-    elif [ $battery_status -ge 40 ] && [ $battery_status -lt 60]       
+    elif [ $batter_percentage -ge 40 ] && [ $batter_percentage -lt 60]       
     then
         battery_pluggedin=""
-    elif [ $battery_status -ge 20 ] && [ $battery_status -lt 40]
+    elif [ $batter_percentage -ge 20 ] && [ $batter_percentage -lt 40]
     then
         battery_pluggedin=""
     else

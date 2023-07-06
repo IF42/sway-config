@@ -1,3 +1,3 @@
 #!/bin/sh
 
-dnf install thunderbird vim git mc htop firefox feh mupdf
+dnf install thunderbird vim git mc htop firefox feh mupdf libreoffice

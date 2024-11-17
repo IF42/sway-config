@@ -6,7 +6,7 @@ set expandtab
 set linebreak
 set switchbuf+=newtab,usetab
 
-
+syntax on
 
 
 

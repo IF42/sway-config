@@ -1,3 +1,3 @@
 #!/bin/sh
 
-dnf install thunderbird vim git mc htop firefox feh mupdf libreoffice
+pacman -S thunderbird vim git htop firefox feh mupdf libreoffice texlive-full texlive-fontsrecommended texlive-basic texlive-langczechslovak
